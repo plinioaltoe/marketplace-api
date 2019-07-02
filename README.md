@@ -4,10 +4,13 @@
 2. Run: `yarn start` or `npm start`
 3. Start a mongodb database (I started it in docker). `docker run --name mongonode -p 27017:27017 -d -t mongo`
 4. I used insomnia to access these routes with GET, POST, PUT, DELETE:
-   # `Create Users: http://localhost:3100/users`
-   # `Create Session: http://localhost:3100/session`
-   # `Ads (Show one, Show all, Create, Update, Delete) http://localhost3100/ads`
-   # `Purchase (Sell, Show all, Send message) http://localhost3100/purchases`
+   `Create Users: http://localhost:3100/users`
+
+   `Create Session: http://localhost:3100/session`
+
+   `Ads (Show one, Show all, Create, Update, Delete) http://localhost3100/ads`
+
+   `Purchase (Sell, Show all, Send message) http://localhost3100/purchases`
 
 "dependencies": {
 "@sentry/node": "^4.6.4",
